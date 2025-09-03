@@ -8,6 +8,8 @@ public class TestJoin implements Runnable{
         }
     }
 
+
+
     public static void main(String[] args) throws InterruptedException {
         TestJoin testJoin = new TestJoin();
         Thread thread1 = new Thread(testJoin);
