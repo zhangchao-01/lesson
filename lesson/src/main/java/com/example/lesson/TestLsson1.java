@@ -16,7 +16,7 @@ public class TestLsson1 extends Thread {
         testLsson1.start();
 
         for(int i=0;i<10;i++) {
-            System.out.println("主线程"+i);
+            System.out.println("主线程的"+i);
         }
     }
 }
